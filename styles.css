@@ -22,14 +22,14 @@ body *{
     background-repeat: no-repeat;
     background-size:cover;
     height:609.91px;
-    width:1350px;
+    width:100%;
 }
 .main:hover{
     background: url(https://c4.wallpaperflare.com/wallpaper/487/509/235/landscape-iceland-mountains-sunset-wallpaper-preview.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height:609.91px;
-    width:1350px;
+    width:100%;
     animation: pic 9s infinite;
 } 
 @keyframes pic{
@@ -38,35 +38,35 @@ body *{
     background-repeat: no-repeat;
     background-size:cover;
     height:609.91px;
-    width:1350px;
+    width:100%;
 }
 25%{
     background: url(https://wallpaperaccess.com/full/3276368.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height:609.91px;
-    width:1350px;
+    width:100%;
 }
 50%{
     background: url(https://images.unsplash.com/photo-1589802829985-817e51171b92?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw5ODAwNzIzfHxlbnwwfHx8fHw%3D&w=1000&q=80);
     background-repeat: no-repeat;
     background-size:cover;
     height:609.91px;
-    width:1350px;
+    width:100%;
 }
 75%{
     background: url(https://free4kwallpapers.com/uploads/originals/2015/10/23/rainforest.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height:609.91px;
-    width:1350px;
+    width:100%;
 }
 100%{
     background: url(https://www.shutterstock.com/image-photo/beautiful-snowy-river-estuary-sunset-260nw-1892948536.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height:609.91px;
-    width:1350px;
+    width:100%;
 }
 }
 .mai{
