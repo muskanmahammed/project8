@@ -1,0 +1,101 @@
+body *{
+    font-family: "Raleway", sans-serif;
+}
+body{
+    /* background-color: #A8E4A0; */
+    background-color: #fff;
+}
+.main-logo {
+    width: 6.3em;
+    position: relative;
+    top: -12px;
+  }
+.pic{
+    float: left;
+    width: 35%;
+    margin: 1.5%;
+    margin-top: -3%;
+  }
+  .col{
+    margin-top:5% !important;
+      
+  }
+  .rain{
+    text-decoration: none;
+    padding-right: 2.5%;
+    color:black;
+    margin-top:3%;
+    font-size: 99%;
+    
+    transition:0.5s;
+ }
+ .rain:hover{
+    color: #A8E4A0;
+    padding: 1.1%;
+    background:#092E20;
+    border-radius: 9px;
+ 
+ }
+ /* .ecoworld {
+  margin-left: 3.8em;
+  margin-top: -2.8em;
+  position: absolute;
+  font-size: 1.3em;
+  color: #00755e;
+} */
+ .birds{
+  animation: fadeInUpTop 4s;
+    width: 53%;
+    height: 25%;
+    margin-top: -34%;
+    position: absolute;
+    margin-left: -73%;
+    
+  }
+  @keyframes fadeInUpTop {
+    from {
+      transform: translate3d(0, 60px, 0);
+      opacity: 0;
+    }
+  
+    to {
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+  }
+  
+ .forest1 {
+  animation: fadeInUpBottom 4s;
+     width: 100%; 
+     margin-top:-30%;
+     
+  } 
+  @keyframes fadeInUpBottom {
+    from {
+      transform: translate3d(0, 200px, 0);
+      opacity: 1;
+    }
+  
+    to {
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+  } 
+   .forest2 {
+    animation: fadeInUpMiddle 4s;
+      width: 100%;
+      margin-top: -5%;
+  } 
+  @keyframes fadeInUpMiddle {
+    from {
+      transform: translate3d(0, 150px, 0);
+      opacity: 1;
+    }
+  
+    to {
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+  }
+  
+  

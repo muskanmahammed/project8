@@ -1,0 +1,117 @@
+body *{
+    font-family: "Raleway", sans-serif;
+}
+body{
+    background-color: #e2c479;
+}
+/* .a{
+    width: 100%;
+    max-height: 100%;
+    height: 33em;
+    margin-top: 350%;
+    color: #b35517;
+    margin-left: 5%;
+    margin-right: 5%;
+} */
+.video-container {
+    opacity: 0.5;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 50em;
+  }
+.video-container video{
+    width: 100%;
+height: 100%;
+position: relative;
+object-fit: cover;
+z-index: 0;
+}
+/* .a{
+    margin-top:10%;
+    margin-left:10%;
+} */
+/* .subtitle {
+    font-weight: 900;
+     margin-top: 3em !important;
+    margin: unset;
+    text-align: center;
+    font-size: 2em;
+    padding: 2%;
+    animation: fadeInUp 2s;
+  } */
+  /* .title {
+    position: relative;
+    margin: unset;
+    text-align: center;
+    top: -0.2em;
+    font-size: 8em;
+    font-weight: 900;
+    animation: fadeInUp 3s;
+  }  */
+  /* .move {
+    margin: unset !important;
+    width: 100%;
+    max-height: 100%;
+    height: 33em;
+    margin-top: 4%;
+    color: #fff;
+    margin-left: 5%;
+    margin-right: 5%;
+  } */
+  .desert {
+    position: absolute;
+    width: 100%;
+    height: 50em;
+    top: -17.5em;
+    /* opacity: 0.4; */
+  }
+  .subtitle{
+    font-weight: 900;
+    position: absolute;
+    font-size: 3em;
+    left: 11%;
+    top: 0.2em;
+    animation: fadeInUp 5s;
+    color: #fff;
+   
+}
+  
+  .title{
+    position: absolute;
+   left:9%;
+    font-size: 8em;
+  font-weight: 900;
+  animation: fadeInUp 5s;
+  color:#fff;
+    
+  }
+  /* FADE UP TRANSITION */
+@keyframes fadeInUp {
+    from {
+      transform: translate3d(40px, 0, 0);
+      opacity: 1;
+    }
+  
+    to {
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+  }
+  .card{
+    margin-left: 13em;
+    margin-right: 13em;
+    padding: 1em;
+    border-radius: 0;
+    background: #fff;
+    margin-top: 27em;
+    position: absolute;
+    box-shadow: 5px 5px;
+    
+    
+  }
+  .audio{
+    display: none;
+  }
+  

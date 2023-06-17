@@ -1,0 +1,127 @@
+body *{
+    font-family: "Raleway", sans-serif;
+}
+.hu,.hi{
+    text-decoration: none;
+}
+.mus{
+    position: absolute;
+    margin-top: 19%;
+    margin-left: 18%;
+}
+.log{
+    display: flex;
+    /* padding:25px; */
+    float: right;
+    width:15%;
+    margin-right:5%;
+    margin-top:2%;
+}
+.main{
+    background: url(/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/04/8e/048ed839-a581-48af-a0ae-fac6fec00948/gettyimages-168346757_web.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:609.91px;
+    width:1350px;
+}
+.main:hover{
+    background: url(https://c4.wallpaperflare.com/wallpaper/487/509/235/landscape-iceland-mountains-sunset-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:609.91px;
+    width:1350px;
+    animation: pic 9s infinite;
+} 
+@keyframes pic{
+    0% {
+    background: url(https://wallpapers.com/images/featured/2ygv7ssy2k0lxlzu.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:609.91px;
+    width:1350px;
+}
+25%{
+    background: url(https://wallpaperaccess.com/full/3276368.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:609.91px;
+    width:1350px;
+}
+50%{
+    background: url(https://images.unsplash.com/photo-1589802829985-817e51171b92?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw5ODAwNzIzfHxlbnwwfHx8fHw%3D&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:609.91px;
+    width:1350px;
+}
+75%{
+    background: url(https://free4kwallpapers.com/uploads/originals/2015/10/23/rainforest.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:609.91px;
+    width:1350px;
+}
+100%{
+    background: url(https://www.shutterstock.com/image-photo/beautiful-snowy-river-estuary-sunset-260nw-1892948536.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:609.91px;
+    width:1350px;
+}
+}
+.mai{
+    background: url(https://images.all-free-download.com/images/graphiclarge/dark_fall_forest_604586.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:609.91px;
+    width:1000px;
+    
+}
+.minu{
+    height:310px;
+    width:300px;
+   border: 1px solid black;
+   background-color:whitesmoke;
+   opacity:0.6;
+   margin-left:726px;
+   margin-top:119px;
+   border-radius:25px 25px 25px 25px;
+   
+}
+.bi{
+    position: absolute;
+    margin-top: -236px;
+    margin-left: 789px;
+}
+
+.ni{
+    border: 1px solid black;
+}
+.hee{
+    background: url(https://wallpaperaccess.com/full/1769997.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:500px;
+    width:1000px;
+}
+.hoo{
+    height:500px;
+    width:400px;
+   border: 1px solid black;
+   background-color: rgb(197, 157, 57);
+   opacity:0.6;
+   margin-left:650px;
+   margin-top:60px;
+   border-radius:25px 25px 25px 25px;
+}
+.gi{
+    position: absolute;
+    margin-top:-470px;
+    margin-left: 685px;
+}
+.word{
+   margin: auto;
+   margin-top:15%;
+   color:white;
+   font-size: 1.8em;
+}

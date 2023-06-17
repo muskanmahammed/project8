@@ -1,0 +1,169 @@
+body * {
+  font-family: "Raleway", sans-serif;
+}
+body {
+  margin: unset;
+  background-color: #98FF98;
+}
+
+.main-row * {
+  color: #fff;
+}
+.main-logo {
+  width: 6.3em;
+  position: relative;
+  top: -12px;
+}
+.sub-logo {
+  position: relative;
+  width: 35%;
+  top: -53px;
+}
+.col-left {
+  float: left;
+  width: 35%;
+  margin: 0.5%;
+  margin-top: unset !important;
+}
+.col-right {
+  float: left;
+  width: 55%;
+  margin: 0.5%;
+  margin-top: unset !important;
+}
+.header {
+  padding-bottom: 2% !important;
+  /* padding-top: 10px; */
+  align-items: center;
+  position: relative;
+}
+.header .menu {
+  padding-top: 3%;
+}
+
+.forest1 {
+  position: relative;
+  width: 100%;
+  top: -5.5em;
+}
+
+.move {
+  margin: unset !important;
+  width: 100%;
+  max-height: 100%;
+  height: 33em;
+  margin-top: 4%;
+  color: #fff;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+@keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 40px, 0);
+    opacity: 0;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+.subtitle {
+  font-weight: 900;
+  /* margin-left: 13em !important; */
+  margin-top: 3em !important;
+  margin: unset;
+  text-align: center;
+  font-size: 2em;
+  padding: 2%;
+  animation: fadeInUp 5s;
+}
+.title {
+  position: relative;
+  margin: unset;
+  /* text-transform: uppercase; */
+  text-align: center;
+  top: -0.2em;
+  font-size: 8em;
+  font-weight: 900;
+  animation: fadeInUp 5s;
+}
+
+/* ////////// */
+
+.row-white * {
+  color: #00755e;
+}
+
+.row-white {
+  padding-top: 5%;
+}
+
+.column {
+  flex: left;
+  width: 50%;
+}
+
+.column-wide {
+  cursor: pointer;
+  padding: 2em;
+  border-radius: 1em;
+  text-align: center;
+  font-size: 60px;
+}
+
+.column-wide .hypertext {
+  padding-left: 2%;
+  padding-right: 2%;
+  background: #00755e !important;
+  color: #fff;
+}
+
+.card-white {
+  padding: 2%;
+  position: absolute;
+  top: 65em;
+  box-shadow: 5px 5px;
+  font-weight: 100;
+  /* text-align: center; */
+  background: #fff;
+  margin: 10%;
+}
+.video-container {
+  opacity: 0.5;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.cloud-container {
+  top: 0em;
+  opacity: 0.5;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.video-container video {
+width: 100%;
+height: 100%;
+position: absolute;
+object-fit: cover;
+z-index: 0;
+}
+
+.cloud-container video {
+width: 100%;
+height: 100%;
+position: absolute;
+object-fit: cover;
+z-index: 0;
+}
+.audio{
+  display: none;
+  
+}
